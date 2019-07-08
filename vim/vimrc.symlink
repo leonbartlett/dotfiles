@@ -1,6 +1,6 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
-set background=dark
+set background=dark		" I use a dark terminal
 colo desert
 
 

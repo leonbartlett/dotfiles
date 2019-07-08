@@ -1,5 +1,9 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
+set background=dark
+colo desert
+
+
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -30,6 +34,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'hashivim/vim-terraform'
 Plugin 'tpope/vim-unimpaired'
+Plugin 'tomtom/tlib_vim'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'

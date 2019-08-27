@@ -48,3 +48,6 @@ zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
+
+# export itsio path
+export PATH="$PATH:/home/gblbar1/istio-1.2.5/bin"

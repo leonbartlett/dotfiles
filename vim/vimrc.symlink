@@ -77,4 +77,5 @@ let g:ansible_unindent_after_newline = 1
 let g:terraform_fmt_on_save=1
 let g:terraform_align=1
 set sw=2 sts=2 ts=8 noet
-
+" using new parser
+let g:snipMate = { 'snippet_version' : 1 }
